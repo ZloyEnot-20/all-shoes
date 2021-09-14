@@ -1,3 +1,21 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(185, 250, 247);
+  box-sizing: border-box;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.wrapper {
+  width: 1080px;
+  height: 1526px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+hr {
+  border-color: #fdfcfc;
+  border-width: 1px;
 }
